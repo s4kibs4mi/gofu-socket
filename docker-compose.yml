@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  gofu-socket:
+    image: gofu-socket:latest
+    ports:
+      - 7009:7009
+    volumes:
+      - .:/etc/config
